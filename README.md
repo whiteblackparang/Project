@@ -19,7 +19,6 @@ Python, SQL을 활용한 ETL 파이프라인, 머신러닝, 딥러닝, 통계 �
 | [User Mobile App Interaction Data](#user-mobile-app-interaction-data) | 모바일 앱 리텐션·코호트·퍼널 분석 | Python |
 | [citibike-demand-analysis](#citibike-demand-analysis) | 뉴욕 Citi Bike 수요 예측 (MAE 75% 개선) | Python, LightGBM |
 | [classicmodels](#classicmodels) | MySQL classicmodels 비즈니스 SQL 분석 | MySQL |
-| [eCommerce](#ecommerce) | 3% SKU로 29% 매출 창출 RFM 분석 | Python, scikit-learn |
 | [fashion-recommendation](#fashion-recommendation) | ResNet50 패션 추천 (TF vs PyTorch 비교) | Python, TensorFlow, PyTorch |
 | [googleplay-trend-monitor](#googleplay-trend-monitor) | Google Play 앱·리뷰 ETL 파이프라인 | Python, SQLite |
 | [korean-movie-sentiment-analysis](#korean-movie-sentiment-analysis) | 한국 영화 리뷰 감성 분석 | Python, NLP |
@@ -144,20 +143,6 @@ Python, SQL을 활용한 ETL 파이프라인, 머신러닝, 딥러닝, 통계 �
 - 파레토 법칙 검증, 윈도우 함수 기반 국가별 랭킹, Funnel 분석
 
 **Stack** `MySQL` `SQL`
-
----
-
-## eCommerce
-
-> 인도 이커머스 기업의 Amazon·국제 판매 데이터(148,012건)를 분석하여 수익성 최적화 전략을 도출합니다.
-
-- 전체 7,113개 SKU 중 **3%(211개)가 29% 매출** 창출
-- K-Means 클러스터링으로 SKU 세분화 (Silhouette Score 0.7624)
-- 배송 완료율 격차 해소 및 휴면 상품 정리 전략 수립
-
-**Stack** `Python 3.10` `scikit-learn` `pandas`
-
----
 
 ## fashion-recommendation
 
