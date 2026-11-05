@@ -17,22 +17,22 @@
 
 ```
 Game/
-├── data/                           # 데이터 (CSV 파일)
-│   ├── games.csv                   # 게임 메타데이터
-│   ├── user_ratings.csv            # 사용자 평점 (1,894만 개)
-│   ├── ratings_distribution.csv    # 평점 분포
-│   ├── mechanics.csv               # 게임 메커니즘
+├── data/                           
+│   ├── games.csv                   
+│   ├── user_ratings.csv            
+│   ├── ratings_distribution.csv   
+│   ├── mechanics.csv               
 │   └── boardgame.db                # SQLite 데이터베이스
 │
-├── notebooks/                      # Jupyter Notebooks
-│   ├── 01_EDA_Final.ipynb          # 탐색적 데이터 분석 + SQL
-│   ├── 02_Baseline_Models.ipynb    # 협업 필터링 (5개 모델)
+├── notebooks/                      
+│   ├── 01_EDA_Final.ipynb         
+│   ├── 02_Baseline_Models.ipynb    
 │   ├── 03_Deep_Learning.ipynb      # PyTorch NCF
 │   ├── 04_Quantization.ipynb       # 모델 경량화 (INT8, 2-bit)
-│   └── 05_Evaluation.ipynb         # 종합 평가
+│   └── 05_Evaluation.ipynb         
 │
 ├── outputs/
-│   ├── figures/                    # 시각화
+│   ├── figures/                  
 │   │   ├── 01_rating_analysis.png           # 평점 분포
 │   │   ├── 02_sparsity_segments.png        # 데이터 희소성
 │   │   ├── 03_baseline_comparison.png      # Baseline 비교
@@ -44,21 +44,21 @@ Game/
 │   │   ├── 09_tradeoff_analysis.png        # 정확도-크기 Trade-off
 │   │   └── 10_ncf_learning_curve.png       # 학습 곡선
 │   │
-│   ├── models/                     # 학습된 모델
+│   ├── models/                   
 │   │   ├── baseline_models.pkl              # Baseline 모델
 │   │   ├── ncf_model.pth                    # NCF 모델 (FP32)
 │   │   ├── ncf_model_best
 │   │   └── ncf_model_int8.pth               # NCF 모델 (INT8)
 │   │
-│   └── reports/                    # 분석 보고서
-│       ├── data_summary.csv                 # 데이터셋 요약
-│       ├── baseline_results.csv             # Baseline 성능
-│       ├── ncf_training_results.csv         # NCF 학습 결과
-│       ├── quantization_results.csv         # 양자화 결과
-│       ├── project_summary.csv              # 프로젝트 요약
-│       └── Final_Report.md                  # 최종 보고서
+│   └── reports/                   
+│       ├── data_summary.csv                 
+│       ├── baseline_results.csv             
+│       ├── ncf_training_results.csv        
+│       ├── quantization_results.csv         
+│       ├── project_summary.csv              
+│       └── Final_Report.md                  
 │
-├── README.md                       # 프로젝트 문서 
+├── README.md                        
 
 ```
 
@@ -132,7 +132,7 @@ Game/
 
 ```bash
 # 저장소 클론
-git clone https://github.com/your-repo/boardgame-recommendation.git
+git clone https://github.com/whiteblackparang/boardgame-recommendation.git
 cd boardgame-recommendation
 
 # 가상환경 생성
